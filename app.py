@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 from dash.exceptions import PreventUpdate
 from openai import OpenAI
 
-YOUR_API_KEY = "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"
+YOUR_API_KEY = ""
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.UNITED])
 app.title = "Journalist Prompt Optimizer"
